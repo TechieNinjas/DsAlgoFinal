@@ -16,9 +16,8 @@ public class CommonActions extends BaseClass {
 
 	By msgText = By.xpath("//div[@class='alert alert-primary']");
 
-	//By practiceQuesBtn = By.xpath("//a[text()='Practice Questions']");
 	By practiceQuesBtn = By.xpath("//a[@class='list-group-item list-group-item-light text-info']");
-	
+
 	By signInBtn = By.xpath("//a[text()='Sign in']");
 
 	By signInUsername = By.xpath("//input[@id='id_username']");
@@ -87,14 +86,14 @@ public class CommonActions extends BaseClass {
 		return this;
 	}
 
+	public CommonActions runBtn() {
+		driver.findElement(runBtn).click();
+		return this;
+	}
+
 	public CommonActions practiceQuesBtn() {
 		driver.findElement(practiceQuesBtn).click();
 		return this;
 	}
-
-		
-	/*
-	 * public static void alertBox() { driver.switchTo().alert().accept(); }
-	 */
 
 }
