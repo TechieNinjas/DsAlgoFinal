@@ -18,11 +18,7 @@ public class ArrayPage_pom extends BaseClass {
 	By maxConsOnesBtn = By.xpath("//a[text()='Max Consecutive Ones']");
 	By evenNoOfDigitsBtn = By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
 	By sqOfSortedArrayBtn = By.xpath("//a[text()='Squares of  a Sorted Array']");
-	
-//	By submitBtnAPP = By.xpath("//input[@class='button']");
-	
-//	By submitBtnAPP = By.xpath("//input[@type='submit']");
-	
+		
 	String arrayPageURL = "https://dsportalapp.herokuapp.com/array/";
 
 	By pracPage_tryEditorBox = By.cssSelector("div.CodeMirror textarea");
@@ -96,21 +92,12 @@ public class ArrayPage_pom extends BaseClass {
 
 	}
 
-	/*
-	public ArrayPage_pom submitBtnAPP() {
-
-		driver.findElement(submitBtnAPP).click();
-		return this;
-
-	}
-	*/
-
 	public ArrayPage_pom pracPage_tryEditorBox() throws InterruptedException {
 		
 				
 		driver.findElement(pracPage_tryEditorBox).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 		driver.findElement(pracPage_tryEditorBox).sendKeys("print('Hello')");
-		Thread.sleep(3000);
+		Thread.sleep(200);
 
 		return this;
 

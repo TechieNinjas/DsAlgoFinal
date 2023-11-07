@@ -64,9 +64,6 @@ public class ArraysPage_sd extends BaseClass {
 		new ArrayPage_pom().searchArrayBtn();
 		new ArrayPage_pom().pracPage_tryEditorBox();
 		new CommonActions().runBtn();
-//		new CommonActions().outputText();
-//		new ArrayPage_pom().submitBtnAPP();
-//		new CommonActions().outputText();
 		new CommonActions().navigateBack();
 
 		new ArrayPage_pom().maxConsOnesBtn();
@@ -80,7 +77,6 @@ public class ArraysPage_sd extends BaseClass {
 
 	
 	    	}
-
 
 	
 	@When("^User clicks array button for wrong input and gives (.*) and gets (.*)$")

@@ -32,14 +32,4 @@ public class LoginPage_pom extends BaseClass {
 
 	}
 
-	/*
-	 * public LoginPage_pom login(String username,String password) {
-	 * 
-	 * driver.findElement(signIn_userName).sendKeys(username);
-	 * driver.findElement(signIn_passwordBtn).sendKeys(password);
-	 * driver.findElement(loginBtn).click(); return this;
-	 * 
-	 * }
-	 */
-
 }
