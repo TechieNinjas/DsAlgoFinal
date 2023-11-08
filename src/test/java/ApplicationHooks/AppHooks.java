@@ -9,14 +9,13 @@ import io.cucumber.java.Scenario;
 public class AppHooks extends BaseClass {
 
 	@Before
-	public static void beforeScenario() throws Throwable{
-		BaseClass.openDriver(ConfigReader.getBrowserType());	
+	public static void beforeScenario() throws Throwable {
+		BaseClass.openDriver(ConfigReader.getBrowserType());
 	}
 
 	@After
-	public void afterScenario(Scenario scenario) { 
-				BaseClass.closeDriver();
+	public void afterScenario(Scenario scenario) {
+		BaseClass.closeDriver();
 	}
 
 }
-

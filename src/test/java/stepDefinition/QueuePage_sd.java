@@ -12,7 +12,7 @@ public class QueuePage_sd extends BaseClass {
 	@Given("User now in the home page before loging in to test queue")
 	public void user_now_in_the_home_page_before_loging_in_to_test_queue() {
 
-		new CommonActions().homePageUrl(); 
+		new CommonActions().homePageUrl();
 
 	}
 

@@ -9,13 +9,10 @@ import io.cucumber.java.en.When;
 
 public class ArraysPage_sd extends BaseClass {
 
-	
-
 	@Given("User opens home page before login to test arrays")
 	public void user_opens_home_page_before_login_to_test_arrays() {
 
 		new CommonActions().logInPageUrl();
-
 	}
 
 	@When("User logged in from login page to test arrays")
@@ -24,7 +21,6 @@ public class ArraysPage_sd extends BaseClass {
 		new CommonActions().login();
 
 	}
-
 
 	@Then("User successfully logged in now to test arrays")
 	public void user_successfully_logged_in_now_to_test_arrays() {
@@ -45,21 +41,20 @@ public class ArraysPage_sd extends BaseClass {
 		new ArrayPage_pom().arraysListBtn();
 		new CommonActions().tryAndRunValid(input);
 		new ArrayPage_pom().navigateBackAP();
-		
+
 		new ArrayPage_pom().basicOperationBtn();
 		new CommonActions().tryAndRunValid(input);
 		new ArrayPage_pom().navigateBackAP();
-		
+
 		new ArrayPage_pom().applcnOfArrayBtn();
 		new CommonActions().tryAndRunValid(input);
 		new CommonActions().navigateBack();
 
-	
 	}
-	
+
 	@Then("User tests practice questions for arrays")
 	public void user_tests_practice_questions_for_arrays() throws InterruptedException {
-		
+
 		new CommonActions().practiceQuesBtn();
 		new ArrayPage_pom().searchArrayBtn();
 		new ArrayPage_pom().pracPage_tryEditorBox();
@@ -75,10 +70,8 @@ public class ArraysPage_sd extends BaseClass {
 		new ArrayPage_pom().sqOfSortedArrayBtn();
 		new CommonActions().navigateBack();
 
-	
-	    	}
+	}
 
-	
 	@When("^User clicks array button for wrong input and gives (.*) and gets (.*)$")
 	public void user_clicks_array_button_for_wrong_input_and_gives_errorInput_and_gets_errorMsg(String errorInput,
 			String errorMsg) throws InterruptedException {
@@ -87,7 +80,7 @@ public class ArraysPage_sd extends BaseClass {
 		new ArrayPage_pom().arraysPythonBtn();
 		new CommonActions().tryAndRunInvalid(errorInput);
 		new ArrayPage_pom().navigateBackAP();
-		
+
 		new ArrayPage_pom().arraysListBtn();
 		new CommonActions().tryAndRunInvalid(errorInput);
 		new ArrayPage_pom().navigateBackAP();
@@ -116,4 +109,3 @@ public class ArraysPage_sd extends BaseClass {
 	}
 
 }
-

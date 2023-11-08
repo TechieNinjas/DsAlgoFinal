@@ -19,19 +19,17 @@ public class HomePage_sd extends BaseClass {
 	public void user_exploring_the_home_page_without_logging_in() {
 
 		new HomePage_pom().getStartedBtn();
-		new HomePage_pom().dataStrDropDownBtn()
-		.anyGetStartedBtn();
-		
+		new HomePage_pom().dataStrDropDownBtn().anyGetStartedBtn();
+
 		new CommonActions().msgText();
-		
-		new HomePage_pom().dataStrDropDownBtn()
-		.dataStrDropDownBtn_item();
-		
+
+		new HomePage_pom().dataStrDropDownBtn().dataStrDropDownBtn_item();
+
 		new CommonActions().msgText();
 		new CommonActions().signInBtn();
-		
+
 		new HomePage_pom().regBtnFromLogInPage();
-		
+
 	}
 
 }
