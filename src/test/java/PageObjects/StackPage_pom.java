@@ -12,28 +12,28 @@ public class StackPage_pom extends BaseClass {
 	By StackApplications = By.xpath("//div[@class='row']//div[1]/div/li[3]/a");
 
 	public StackPage StackGetStrtdBtn() {
-    
+
 		driver.findElement(StackGetStrtdBtn).click();
 		return new StackPage();
     
 	}
 
 	public OperationsinStack OperationsinStackBtn() {
-    
+
 		driver.findElement(OperationsinStack).click();
 		return new OperationsinStack();
     
 	}
 
 	public StackImplementation StackImplementationBtn() {
-    
+
 		driver.findElement(StackImplemantation).click();
 		return new StackImplementation();
     
 	}
 
 	public StackApplications StackApplicationsBtn() {
-    
+
 		driver.findElement(StackApplications).click();
 		return new StackApplications();
 

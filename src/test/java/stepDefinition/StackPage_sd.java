@@ -1,11 +1,12 @@
 package stepDefinition;
 
 import PageObjects.StackPage_pom;
+import Utilities.BaseClass;
+import Utilities.CommonActions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import Utilities.BaseClass;
-import Utilities.CommonActions;
+
 
 public class StackPage_sd extends BaseClass {
 
@@ -37,11 +38,11 @@ public class StackPage_sd extends BaseClass {
 		new StackPage_pom().StackGetStrtdBtn();
 		new StackPage_pom().OperationsinStackBtn();
 		new CommonActions().tryAndRunValid(input);
-		Thread.sleep(1000);
+		Thread.sleep(200);
 		new CommonActions().navigateBack();
 		new StackPage_pom().StackImplementationBtn();
 		new CommonActions().tryAndRunValid(input);
-		Thread.sleep(1000);
+		Thread.sleep(200);
 		new CommonActions().navigateBack();
 		new StackPage_pom().StackApplicationsBtn();
 		new CommonActions().tryAndRunValid(input);
