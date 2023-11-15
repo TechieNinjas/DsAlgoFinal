@@ -59,6 +59,9 @@ public class ArraysPage_sd extends BaseClass {
 		new ArrayPage_pom().searchArrayBtn();
 		new ArrayPage_pom().pracPage_tryEditorBox();
 		new CommonActions().runBtn();
+		new CommonActions().outputText();
+		new ArrayPage_pom().submitBtn();
+		new CommonActions().outputText();
 		new CommonActions().navigateBack();
 
 		new ArrayPage_pom().maxConsOnesBtn();

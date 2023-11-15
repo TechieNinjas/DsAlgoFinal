@@ -18,6 +18,8 @@ public class ArrayPage_pom extends BaseClass {
 	By maxConsOnesBtn = By.xpath("//a[text()='Max Consecutive Ones']");
 	By evenNoOfDigitsBtn = By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
 	By sqOfSortedArrayBtn = By.xpath("//a[text()='Squares of  a Sorted Array']");
+	
+	By submitBtn = By.xpath("//input[@class='button']");
 
 	String arrayPageURL = "https://dsportalapp.herokuapp.com/array/";
 
@@ -95,11 +97,23 @@ public class ArrayPage_pom extends BaseClass {
 	public ArrayPage_pom pracPage_tryEditorBox() throws InterruptedException {
 
 		driver.findElement(pracPage_tryEditorBox).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
-		driver.findElement(pracPage_tryEditorBox).sendKeys("print('Hello')");
+		driver.findElement(pracPage_tryEditorBox).sendKeys("def search(lst, value):",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox).sendKeys("if value in lst:",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox).sendKeys("return \"Element Found\"",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox).sendKeys("else:",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox).sendKeys("return \"Not Found\"",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox).sendKeys(Keys.BACK_SPACE,Keys.BACK_SPACE);
+		driver.findElement(pracPage_tryEditorBox).sendKeys
+				("print(\"To check for positive scenario: \"+search([12,23,45,67,6,90],12))",Keys.ENTER);
+		driver.findElement(pracPage_tryEditorBox)
+				.sendKeys("print(\"To check for negative scenario: \"+search([12,23,45,67,6,90],25))");
 		Thread.sleep(200);
-
 		return this;
-
 	}
-
+	
+	public ArrayPage_pom submitBtn() throws InterruptedException {
+		driver.findElement(submitBtn).click();
+		Thread.sleep(300);
+		return this;
+	}
 }
