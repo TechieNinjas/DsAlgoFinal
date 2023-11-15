@@ -1,15 +1,16 @@
 package stepDefinition;
 
 import PageObjects.StackPage_pom;
+import Utilities.BaseClass;
+import Utilities.CommonActions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import Utilities.BaseClass;
-import Utilities.CommonActions;
+
 
 public class StackPage_sd extends BaseClass {
 
-	CommonActions commonclass;
+	//CommonActions commonclass;
 
 	@Given("User is in the Home Page before logging in to test Stack datastructure")
 	public void user_is_in_the_home_page_before_logging_in_to_test_stack_datastructure() {
