@@ -53,5 +53,4 @@ public class RegisterPage_pom extends BaseClass {
 
 	}
 
-
 }

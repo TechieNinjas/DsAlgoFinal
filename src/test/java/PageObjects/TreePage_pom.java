@@ -27,62 +27,62 @@ public class TreePage_pom extends BaseClass {
 		driver.findElement(treeGetStartedBtn).click();
 		return new treeGetStartedBtnArL();
 	}
-	
+
 	public TreePage_pom navigateBackTP() {
 		driver.navigate().to(treePageUrl);
 		return this;
 	}
-	
+
 	public TreePage_pom treeOverviewOfTrees() {
 		driver.findElement(treeTerminologies).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeTerminologies() {
 		driver.findElement(treeTerminologies).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeTypesOfTrees() {
 		driver.findElement(treeTypesOfTrees).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeTraversals() {
 		driver.findElement(treeTraversals).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeTraversalsIllustration() {
 		driver.findElement(treeTraversalsIllustration).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeBinaryTrees() {
 		driver.findElement(treeBinaryTrees).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeTypesOfBinary() {
 		driver.findElement(treeTypesOfBinary).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeImpInPython() {
 		driver.findElement(treeImpInPython).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeBinaryTreeTrav() {
 		driver.findElement(treeBinaryTreeTrav).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeImpBinaryTree() {
 		driver.findElement(treeImpBinaryTree).click();
 		return this;
 	}
-	
+
 	public TreePage_pom treeAppBinaryTree() {
 		driver.findElement(treeAppBinaryTree).click();
 		return this;
@@ -97,5 +97,5 @@ public class TreePage_pom extends BaseClass {
 		driver.findElement(treeImpOfBST).click();
 		return this;
 	}
-	
+
 }

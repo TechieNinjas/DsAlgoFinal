@@ -24,10 +24,10 @@ public class QueuePage_pom extends BaseClass {
 		driver.findElement(queueImplementQBtn).click();
 		return this;
 	}
-	
+
 	public QueuePage_pom navigateBackQP() {
-		 driver.navigate().to(queuePageUrl);
-		 return this;
+		driver.navigate().to(queuePageUrl);
+		return this;
 	}
 
 	public QueuePage_pom queueImpCollectionBtn() {

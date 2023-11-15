@@ -19,4 +19,5 @@
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="20.271"/>
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="6.481"/>
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="6.477"/>
+
 </testsuite> <!-- Testfirefox -->

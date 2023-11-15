@@ -19,4 +19,5 @@
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="21.283"/>
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="4.746"/>
   <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="5.242"/>
+
 </testsuite> <!-- Testedge -->
