@@ -9,37 +9,32 @@ import io.cucumber.java.en.When;
 
 public class LoginPage_sd extends BaseClass {
 
-	
 	@Given("User enters login page")
 	public void User_enters_login_page() {
-		
+
 		new CommonActions().logInPageUrl();
+
 	}
 
 	@When("^User enters (.*) and (.*)$")
 	public void user_enters_username_and_password(String username, String password) {
-		
-		new LoginPage_pom().signIn_userName(username)
-		.signIn_passwordBtn(password)
-		.loginBtn();		
 
-	    	}
+		new LoginPage_pom().signIn_userName(username).signIn_passwordBtn(password).loginBtn();
+
+	}
 
 	@When("user clicks on login")
 	public void user_clicks_on_login() {
-		
+
 		new LoginPage_pom().loginBtn();
-		
-		
-	    	}
+
+	}
 
 	@Then("User successfully logged in")
 	public void User_successfully_logged_in() {
-		
+
 		new CommonActions().msgText();
-		
-	    	}
 
-
+	}
 
 }
