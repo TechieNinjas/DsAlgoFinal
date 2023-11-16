@@ -19,9 +19,10 @@ public class GraphPage_pom extends BaseClass {
 
 	}
 
-	public void navigateBackGP() {
+	public GraphPage_pom navigateBackGP() {
 
 		driver.navigate().to(graphPageURL);
+		return this;
 	}
 
 	public GraphPage_pom topic_graph() {

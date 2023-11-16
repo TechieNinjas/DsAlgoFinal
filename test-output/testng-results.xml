@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="54" passed="54" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-    <suite started-at="2023-11-09T00:05:19 CST" name="Suite" finished-at="2023-11-09T00:13:02 CST" duration-ms="463596">
-
+  <suite started-at="2023-11-15T15:48:56 PST" name="Suite" finished-at="2023-11-15T15:49:48 PST" duration-ms="52529">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5aebe890]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3098cf3b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6a03bcb1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-      <test started-at="2023-11-09T00:05:19 CST" name="TestChrome" finished-at="2023-11-09T00:08:07 CST" duration-ms="168046">
+    <test started-at="2023-11-15T15:48:56 PST" name="TestChrome" finished-at="2023-11-15T15:49:12 PST" duration-ms="16296">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:05:19 CST" name="defineBrowser" finished-at="2023-11-09T00:05:19 CST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:48:56 PST" name="defineBrowser" finished-at="2023-11-15T15:48:56 PST" duration-ms="16" status="PASS">
 
           <params>
             <param index="0">
@@ -25,126 +24,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:05:19 CST" name="setUpClass" finished-at="2023-11-09T00:05:19 CST" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:48:56 PST" name="setUpClass" finished-at="2023-11-15T15:48:57 PST" duration-ms="764" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@47388ed9]]>
-
+                <![CDATA[org.testng.TestRunner@3856d0cb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:05:19 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:05 CST" duration-ms="45354" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Home Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:05 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:08 CST" duration-ms="3264" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["We are in register page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:08 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:10 CST" duration-ms="2027" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:10 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:12 CST" duration-ms="2089" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:12 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:16 CST" duration-ms="4123" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:16 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:20 CST" duration-ms="3891" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:20 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:28 CST" duration-ms="7569" status="PASS">
-
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:48:57 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-15T15:49:11 PST" duration-ms="14545" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["User tests array with simple python code"]]>
+
               </value>
             </param>
             <param index="1">
@@ -155,204 +51,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:28 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:36 CST" duration-ms="8233" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests arrays with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Array Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:36 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:44 CST" duration-ms="8085" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:44 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:06:55 CST" duration-ms="11013" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:06:55 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:02 CST" duration-ms="7077" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with Python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:02 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:08 CST" duration-ms="5828" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:08 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:14 CST" duration-ms="6192" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:22 CST" duration-ms="7408" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:22 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:36 CST" duration-ms="14784" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:36 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:07:55 CST" duration-ms="18606" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:07:55 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:00 CST" duration-ms="5183" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with simple python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:08:00 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:06 CST" duration-ms="5921" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->       
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4e0ae11f]" started-at="2023-11-09T00:08:06 CST" name="tearDownClass" finished-at="2023-11-09T00:08:07 CST" duration-ms="561" status="PASS">
-
+           </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:49:11 PST" name="tearDownClass" finished-at="2023-11-15T15:49:12 PST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
     </test> <!-- TestChrome -->
-      <test started-at="2023-11-09T00:08:07 CST" name="Testfirefox" finished-at="2023-11-09T00:10:57 CST" duration-ms="170701">
+    <test started-at="2023-11-15T15:49:12 PST" name="Testfirefox" finished-at="2023-11-15T15:49:33 PST" duration-ms="20839">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:07 CST" name="defineBrowser" finished-at="2023-11-09T00:08:07 CST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="defineBrowser" finished-at="2023-11-15T15:49:12 PST" duration-ms="0" status="PASS">
 
           <params>
             <param index="0">
@@ -363,122 +71,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:07 CST" name="setUpClass" finished-at="2023-11-09T00:08:07 CST" duration-ms="51" status="PASS">
+          </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="setUpClass" finished-at="2023-11-15T15:49:12 PST" duration-ms="121" status="PASS">
+
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46f358a9]]>
-
+                <![CDATA[org.testng.TestRunner@2125535d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:07 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:12 CST" duration-ms="5318" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Home Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:12 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:18 CST" duration-ms="5487" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["We are in register page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:18 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:22 CST" duration-ms="4149" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:22 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:26 CST" duration-ms="4090" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:26 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:32 CST" duration-ms="6463" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:32 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:39 CST" duration-ms="6407" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:39 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:08:50 CST" duration-ms="11761" status="PASS">
+          </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-15T15:49:33 PST" duration-ms="20579" status="PASS">
 
           <params>
             <param index="0">
@@ -494,204 +100,17 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:08:50 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:02 CST" duration-ms="11459" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests arrays with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Array Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:02 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:14 CST" duration-ms="12225" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:27 CST" duration-ms="12777" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->     
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:27 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:37 CST" duration-ms="9804" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with Python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:37 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:46 CST" duration-ms="9025" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:09:55 CST" duration-ms="9671" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->     
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:09:55 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:10:05 CST" duration-ms="9397" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->     
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:10:05 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:10:24 CST" duration-ms="19323" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:10:24 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:10:44 CST" duration-ms="20271" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:10:44 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:10:51 CST" duration-ms="6481" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with simple python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:10:51 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:10:57 CST" duration-ms="6477" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@dc9876b]" started-at="2023-11-09T00:10:57 CST" name="tearDownClass" finished-at="2023-11-09T00:10:57 CST" duration-ms="32" status="PASS">
+           </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:33 PST" name="tearDownClass" finished-at="2023-11-15T15:49:33 PST" duration-ms="131" status="PASS">
 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
     </test> <!-- Testfirefox -->
-      <test started-at="2023-11-09T00:10:57 CST" name="Testedge" finished-at="2023-11-09T00:13:02 CST" duration-ms="124802">
+     <test started-at="2023-11-15T15:49:33 PST" name="Testedge" finished-at="2023-11-15T15:49:48 PST" duration-ms="15333">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:10:57 CST" name="defineBrowser" finished-at="2023-11-09T00:10:57 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:33 PST" name="defineBrowser" finished-at="2023-11-15T15:49:33 PST" duration-ms="0" status="PASS">
 
           <params>
             <param index="0">
@@ -703,121 +122,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:10:57 CST" name="setUpClass" finished-at="2023-11-09T00:10:57 CST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:33 PST" name="setUpClass" finished-at="2023-11-15T15:49:33 PST" duration-ms="96" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@e6b2e9d]]>
+                <![CDATA[org.testng.TestRunner@d190639]]>
 
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:10:57 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:00 CST" duration-ms="2752" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Home Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:00 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:04 CST" duration-ms="3503" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["We are in register page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:04 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:06 CST" duration-ms="2271" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:06 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:08 CST" duration-ms="2373" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check login is successful with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Login Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->    
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:08 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:12 CST" duration-ms="4027" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:12 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:17 CST" duration-ms="4419" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on DataStructures Introduction with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DataStructuresintroduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:17 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:24 CST" duration-ms="7203" status="PASS">
+           </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:33 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-15T15:49:48 PST" duration-ms="15103" status="PASS">
 
           <params>
             <param index="0">
@@ -833,195 +150,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->     
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:24 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:33 CST" duration-ms="8775" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests arrays with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Array Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->    
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:33 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:42 CST" duration-ms="9655" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:42 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:52 CST" duration-ms="9601" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Linked List Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Linked List Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:52 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:11:59 CST" duration-ms="6719" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with Python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:11:59 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:04 CST" duration-ms="5648" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User working on Stack datastructure with wrong input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing Stack DataStructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:04 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:10 CST" duration-ms="6082" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->    
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:10 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:18 CST" duration-ms="7185" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test Queue Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Queue Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->   
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:18 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:31 CST" duration-ms="13224" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario --> 
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:31 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:52 CST" duration-ms="21283" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User test tree Data Structure with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Tree Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->    
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:52 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:12:57 CST" duration-ms="4746" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with simple python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->    
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:12:57 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-09T00:13:02 CST" duration-ms="5242" status="PASS">
-
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User tests graph with wrong python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Graph Datastructure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->  
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@19976a65]" started-at="2023-11-09T00:13:02 CST" name="tearDownClass" finished-at="2023-11-09T00:13:02 CST" duration-ms="49" status="PASS">
+           </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:48 PST" name="tearDownClass" finished-at="2023-11-15T15:49:48 PST" duration-ms="125" status="PASS">
 
           <reporter-output>
           </reporter-output>

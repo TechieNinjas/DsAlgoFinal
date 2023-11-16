@@ -85,12 +85,19 @@ public class CommonActions extends BaseClass {
 		driver.switchTo().alert().accept();
 		return this;
 	}
-
-	public CommonActions runBtn() {
+	
+	public CommonActions runBtn() throws InterruptedException {
 		driver.findElement(runBtn).click();
+		Thread.sleep(300);
 		return this;
 	}
 
+	public CommonActions outputText() throws InterruptedException {
+		driver.findElement(outputText).isDisplayed();
+		Thread.sleep(300);
+		return this;
+	}
+	
 	public CommonActions practiceQuesBtn() {
 		driver.findElement(practiceQuesBtn).click();
 		return this;
