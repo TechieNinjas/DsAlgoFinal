@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class) //Junit execution
 
 @CucumberOptions(
-		plugin = {"pretty", "html:target/sudha.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		plugin = {"pretty", "html:target/DsAlgoFinal.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		monochrome = false, // console output color
 		tags = "@DsAlgoFinal", // tags from feature file
 		dryRun = !true, //To add new method give true

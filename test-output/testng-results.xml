@@ -13,6 +13,7 @@
     <test started-at="2023-11-15T15:48:56 PST" name="TestChrome" finished-at="2023-11-15T15:49:12 PST" duration-ms="16296">
       <class name="runner.TestRunner">
         <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:48:56 PST" name="defineBrowser" finished-at="2023-11-15T15:48:56 PST" duration-ms="16" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -39,6 +40,7 @@
             <param index="0">
               <value>
                 <![CDATA["User tests array with simple python code"]]>
+
               </value>
             </param>
             <param index="1">
@@ -49,7 +51,7 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
+           </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5aebe890]" started-at="2023-11-15T15:49:11 PST" name="tearDownClass" finished-at="2023-11-15T15:49:12 PST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -59,6 +61,7 @@
     <test started-at="2023-11-15T15:49:12 PST" name="Testfirefox" finished-at="2023-11-15T15:49:33 PST" duration-ms="20839">
       <class name="runner.TestRunner">
         <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="defineBrowser" finished-at="2023-11-15T15:49:12 PST" duration-ms="0" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -68,8 +71,9 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- defineBrowser -->
+          </test-method> <!-- defineBrowser -->
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="setUpClass" finished-at="2023-11-15T15:49:12 PST" duration-ms="121" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -79,8 +83,9 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
+          </test-method> <!-- setUpClass -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:12 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-15T15:49:33 PST" duration-ms="20579" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -95,16 +100,18 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
+           </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3098cf3b]" started-at="2023-11-15T15:49:33 PST" name="tearDownClass" finished-at="2023-11-15T15:49:33 PST" duration-ms="131" status="PASS">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
     </test> <!-- Testfirefox -->
-    <test started-at="2023-11-15T15:49:33 PST" name="Testedge" finished-at="2023-11-15T15:49:48 PST" duration-ms="15333">
+     <test started-at="2023-11-15T15:49:33 PST" name="Testedge" finished-at="2023-11-15T15:49:48 PST" duration-ms="15333">
       <class name="runner.TestRunner">
         <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:33 PST" name="defineBrowser" finished-at="2023-11-15T15:49:33 PST" duration-ms="0" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -120,13 +127,15 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@d190639]]>
+
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
+           </test-method> <!-- setUpClass -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:33 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-15T15:49:48 PST" duration-ms="15103" status="PASS">
+
           <params>
             <param index="0">
               <value>
@@ -141,8 +150,9 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
+           </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6a03bcb1]" started-at="2023-11-15T15:49:48 PST" name="tearDownClass" finished-at="2023-11-15T15:49:48 PST" duration-ms="125" status="PASS">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
