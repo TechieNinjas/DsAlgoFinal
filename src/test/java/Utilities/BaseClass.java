@@ -27,7 +27,7 @@ public class BaseClass {
 
 		}
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 
 	}
